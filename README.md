@@ -13,14 +13,24 @@ The topics that are covered each day during class
 
 ## Eye anatomy
 - See slides on eye anatomy
+- Eye placement
 - Cornea
-- Iris
+  - Additional information at https://en.wikipedia.org/wiki/Cornea
+- Iris/Pupil
+  - Addition information at https://en.wikipedia.org/wiki/Iris_(anatomy)
 - Lens
-- Pupil
+  - Additional information at https://en.wikipedia.org/wiki/Lens_(vertebrate_anatomy)
+- Vitreous Body
+  - Additional information at https://en.wikipedia.org/wiki/Vitreous_body
 - Retina
+  - Additional information at https://en.wikipedia.org/wiki/Retina
 - Optic Nerve
-- Optic Disc and Blind Spot
+  - Additional information at https://en.wikipedia.org/wiki/Optic_nerve
+- Blind Spot
+  - Additional information at https://en.wikipedia.org/wiki/Blind_spot_(vision)
 - Rods
+  - Additional information at https://en.wikipedia.org/wiki/Rod_cell
 - Cones
+  - Additional information at https://en.wikipedia.org/wiki/Cone_cell
 
 ## First code
