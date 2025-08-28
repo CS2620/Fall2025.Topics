@@ -3,6 +3,22 @@ The topics that are covered each day during class
 - [You can find the notes from class here](https://uofnebraska-my.sharepoint.com/:f:/g/personal/17816140_nebraska_edu/EktuKJi3m_9Khf6sZLG_lrkBc46ZoPAOI6gCk86_xmf0sQ?e=sRqveC)
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
+# Day 03, September 3 - More Filters
+
+## Review
+- What is a better gray scale conversion? What makes a gray scale conversion good?
+
+## Announcements
+- Upcoming sprint
+
+## Create a image of colors
+- Code at https://github.com/CS2620/Fall2025.Day02.Grayscale/blob/main/02-color-swatch.py
+
+## Bayer Filtering
+- Eyes != Cameras
+  - Additional information at https://en.wikipedia.org/wiki/Bayer_filter
+- Demosaicing
+  - Additional information at https://en.wikipedia.org/wiki/Demosaicing
 
 # Day 02, August 28 - Grayscale
 
@@ -26,8 +42,6 @@ The topics that are covered each day during class
 ## Syllabus
 - Including sprints
 
-
-
 ## Anatomy-conscious grayscale
 - There are an infinite number of ways to convert to grayscale, consider https://cs2620.github.io/grayscale/
 - NTSC: 0.2126 ∙ Red + 0.7152 ∙ Green + 0.0722 ∙ Blue (https://en.wikipedia.org/wiki/Grayscale)
@@ -35,16 +49,12 @@ The topics that are covered each day during class
 ## Color isolation/Selective Color
 - Examples of professional art: https://www.nicholasgooddenphotography.co.uk/london-blog/selective-colour-photography
 
-## Create a image of colors
-- Code at https://github.com/CS2620/Fall2025.Day02.Grayscale/blob/main/02-color-swatch.py
+## 🧭Ideas to explore on your own
+- Play around with selective coloring. Can you make an artistic image more artistic with our code?
+- What if you wanted to select a specific color, but only in a particular part of the image? Could you do that?
 
-## Bayer Filtering
-- Eyes != Cameras
-  - Additional information at https://en.wikipedia.org/wiki/Bayer_filter
-- Demosaicing
-  - Additional information at https://en.wikipedia.org/wiki/Demosaicing
-
-## Ideas to explore on your own
+## Today's Code
+- You can find [today's code on GitHub]()
 
 
 # Day 01, August 26 - Eye Anatomy
