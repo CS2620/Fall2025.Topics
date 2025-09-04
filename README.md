@@ -8,6 +8,12 @@ The topics that are covered each day during class
 ---
 # Day 04, September 9 - Transforms
 
+## 📢Announcements
+- Upcoming sprints
+
+## 🔙Review
+- Describe demosaicing
+
 <br/><br/><br/>
 ---
 ---
