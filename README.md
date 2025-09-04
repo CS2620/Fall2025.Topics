@@ -3,30 +3,63 @@ The topics that are covered each day during class
 - [You can find the notes from class here](https://uofnebraska-my.sharepoint.com/:f:/g/personal/17816140_nebraska_edu/EktuKJi3m_9Khf6sZLG_lrkBc46ZoPAOI6gCk86_xmf0sQ?e=sRqveC)
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
-# Day 03, September 3 - More Filters
+<br/><br/><br/>
+---
+---
+# Day 04, September 9 - Transforms
 
-## Review
+<br/><br/><br/>
+---
+---
+# Day 03, September 3 - Bayer Filter & Demosaicing
+
+## 📢Announcements
+- Upcoming sprint
+- Attend the career fair if possible
+- 
+## 🔙Review
 - What is a better gray scale conversion? What makes a gray scale conversion good?
 
-## Announcements
-- Upcoming sprint
 
-## Create a image of colors
-- Code at https://github.com/CS2620/Fall2025.Day02.Grayscale/blob/main/02-color-swatch.py
-
-## Bayer Filtering
+## 💡New Idea: Bayer Filtering
 - Eyes != Cameras
+- Digital cameras use a Bayer Filter to capture color images
   - Additional information at https://en.wikipedia.org/wiki/Bayer_filter
-- Demosaicing
+- Notably, images captured with a Bayer Filter only have one channel of information per pixel.
+
+## 👩‍💻Activity: Bayer Filtering 
+- Simulate a Bayer Filter on a given image
+
+## 💡New Idea: Demosaicing
+- In order to create an image with three channels of information (R,G,B), we need to transform a bayer filter image
+- This process is called demosaicking.
   - Additional information at https://en.wikipedia.org/wiki/Demosaicing
 
+## 👩‍💻Activity: Demosaicing
+- What would a good demosaicing algorithm look like?
+- Write a simple demosaicing algorithm by reducing the size of the image
+
+## 🧭Ideas to explore on your own
+- Are there better demosaicing algorithms?
+- Are there better Bayer Filter layouts?
+- Could we improve hardware in such a way that we don't need Bayer Filtering?
+
+## 🏁Final Code
+- [Bayer Filter Simulation and Demosaicing](https://github.com/CS2620/Fall2025.Day03.BayerFilterhttps://github.com/CS2620/Fall2025.Day03.BayerFilter)
+  
+<br/><br/><br/>
+---
+---
 # Day 02, August 28 - Grayscale
 
-## Review
+## 🔙Review
 - What is the difference between your cornea and your lens?
 - What is the difference between your cones and your rods?
 
-## Editing an image
+## ~~📢Announcements~~
+
+
+## 👩‍💻Activity: Editing an image
 - Where to get images?
   - Stick with public domain (or equivalent) content
 - Import in image in python
@@ -42,30 +75,38 @@ The topics that are covered each day during class
 ## Syllabus
 - Including sprints
 
-## Anatomy-conscious grayscale
+## 💡New Idea: Anatomy-conscious grayscale
 - There are an infinite number of ways to convert to grayscale, consider https://cs2620.github.io/grayscale/
 - NTSC: 0.2126 ∙ Red + 0.7152 ∙ Green + 0.0722 ∙ Blue (https://en.wikipedia.org/wiki/Grayscale)
 
-## Color isolation/Selective Color
-- Examples of professional art: https://www.nicholasgooddenphotography.co.uk/london-blog/selective-colour-photography
 
 ## 🧭Ideas to explore on your own
 - Play around with selective coloring. Can you make an artistic image more artistic with our code?
 - What if you wanted to select a specific color, but only in a particular part of the image? Could you do that?
+- ## Color isolation/Selective Color
+- Examples of professional art: https://www.nicholasgooddenphotography.co.uk/london-blog/selective-colour-photography
 
-## Today's Code
+
+## 🏁Final Code
 - You can find [today's code on GitHub]()
 
+<br/><br/><br/>
 
+---
+---
 # Day 01, August 26 - Eye Anatomy
 
-## What kinds of computer graphics are we going to use?
+## ~~🔙Review~~
+
+## ~~📢Announcements~~
+
+## 👩‍💻Activity: What kinds of computer graphics are we going to use?
 - Watch trailer, https://www.youtube.com/watch?v=-sAOWhvheK8
 - What different kinds of computer graphics are there?
     - See slides on computer graphics
 - What a trailer, what image processing is used? https://www.youtube.com/watch?v=iV46TJKL8cU
 
-## Eye anatomy
+## 💡New Idea: Eye anatomy
 - See slides on eye anatomy
 - Eye placement
 - Cornea
@@ -87,7 +128,7 @@ The topics that are covered each day during class
 - Cones
   - Additional information at https://en.wikipedia.org/wiki/Cone_cell
 
-## Final code
+## 🏁Final Code
 ```python
 # If you do not have pillow installed, you may need to run the following from the command line: `python -m pip install pillow`
 from PIL import Image
