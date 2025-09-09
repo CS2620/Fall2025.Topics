@@ -3,16 +3,54 @@ The topics that are covered each day during class
 - [You can find the notes from class here](https://uofnebraska-my.sharepoint.com/:f:/g/personal/17816140_nebraska_edu/EktuKJi3m_9Khf6sZLG_lrkBc46ZoPAOI6gCk86_xmf0sQ?e=sRqveC)
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
-<br/><br/><br/>
+<br/><br/>
 ---
 ---
 # Day 04, September 9 - Transforms
 
 ## 📢Announcements
 - Upcoming sprints
+  - Review the list of sprint ideas on the syllabus
+  - It is fine to reimplement something we have done in class
+  - If you have questions about what to do during the sprint, ask the teacher
 
 ## 🔙Review
-- Describe demosaicing
+- Write a simple color isolation algorithm on your own
+
+## 💡New Idea: Transforms
+- How can we change the shape, size and orientation of images?
+- Is there a mathematically-sound way to do this for all transformations?
+- 🛝See slides about Flips
+
+## 👩‍💻Activity: Implement a vertical flip (flip over horizontal axis)
+- What formula flips pixels over a horizontal axis?
+  - `height-1-y`
+- We need an second image otherwise we overwrite data
+
+- See final code
+
+## 💡New Idea: Matrix-based Transforms
+- What basic transforms can we create with matrices?
+  - Move (Translate)
+  - Flip and resize (Scale)
+  - Rotation
+- Homogenous coordinates
+- 🛝See slides about basic transformations
+
+## 👩‍💻Activity: Implement a vertical flip using matrices
+- Identify the matrix that will accomplish this transform
+  - Flip over y (negative scale in the y direction)
+  - Move `height-1`
+- See final code
+
+## 🧭Ideas to explore on your own
+- What matrices would create other transformations?
+- What transformations are not possible with matrices?
+
+## 🏁Final Code
+-  :octocat: [Transformations with and without matrices](https://github.com/CS2620/Fall2025.Day04.Transforms)
+  
+
 
 <br/><br/><br/>
 ---
@@ -113,7 +151,7 @@ The topics that are covered each day during class
 - What a trailer, what image processing is used? https://www.youtube.com/watch?v=iV46TJKL8cU
 
 ## 💡New Idea: Eye anatomy
-- See slides on eye anatomy
+- 🛝See slides on eye anatomy
 - Eye placement
 - Cornea
   - Additional information at https://en.wikipedia.org/wiki/Cornea
