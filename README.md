@@ -3,9 +3,93 @@ The topics that are covered each day during class
 - [You can find the notes from class here](https://uofnebraska-my.sharepoint.com/:f:/g/personal/17816140_nebraska_edu/EktuKJi3m_9Khf6sZLG_lrkBc46ZoPAOI6gCk86_xmf0sQ?e=sRqveC)
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
+
+# Day 05, September 11 - Advanced Transforms (Lecture)
+
+## 📢Announcements
+- Sprint next week
+- Quiz prep
+  - Review major topics from the previous weeks
+
+## 🔙Review
+- Which matrix does a vertical flip
+- What matrices do the following transformations?
+  - Translate
+  - Scale
+  - Rotate
+
+## 👩‍💻Activity: Horizontal Flips
+- Use what we learned in class last time to determine the matrix for a horizontal flip
+$$
+\begin{bmatrix}
+-1 & 0 & w-1 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+
+## 💡New Idea: Translate
+$$
+\begin{bmatrix}
+1 & 0 & dx \\
+0 & 1 & dy \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+- 🛝See slides about Translate
+
+## 💡New Idea: Scale
+$$
+\begin{bmatrix}
+sx & 0 & 0 \\
+0 & sy & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+- 🛝See slides about Scale
+- When we scale up, this creates a series of black lines.
+- The solution is...
+
+
+## 💡New Idea: Push v Pull
+- We want to pull pixels into the new image, not push pixels from the original image
+- This prevents gaps and creates better images
+- However, we need to use the inverse of our matrices, $M^{-1}$
+
+## 💡New Idea: Basic Rotations
+$$
+\begin{bmatrix}
+cosine(\theta) & -sine(\theta) & 0 \\
+sine(\theta) & cosine(\theta) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
+- This rotates an image about the origin. 
+- How do we rotate about the center of the image?
+
+## 💡New Idea: Centered Rotations
+- Translate so the center of the image is at the origin
+- Rotate
+- Translate so the center of the image returns
+- 🛝See slides about Rotation
+
+## 💡New Idea: Rotation canvas size
+- How should the canvas be resized when we rotate?
+- We can expand the canvas if we rotate the four corners and find their difference in x and y
+
+## 🧭Ideas to explore on your own
+- What other transforms are there?
+- How can we make our transforms (especially rotations) less grainy?
+
+
+## 🏁Final Code
+- :octocat: [Advanced Transformations](https://github.com/CS2620/Fall2025.Day05.AdvancedTransforms)
+
+
 <br/><br/>
 ---
 ---
+
 # Day 04, September 9 - Transforms
 
 ## 📢Announcements
