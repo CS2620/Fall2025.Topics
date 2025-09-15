@@ -1,3 +1,5 @@
+# Day xx, MMMM dd - xxx (🧑‍🏫Lecture 👟Sprint)
+
 ## 📢Announcements
 
 ## 🔙Review
@@ -11,3 +13,7 @@
 
 
 ## 🏁Final Code
+ - [The final code for today](https://github.com/cs)
+<br/><br/>
+---
+---
