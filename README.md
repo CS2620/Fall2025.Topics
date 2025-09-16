@@ -4,6 +4,16 @@ The topics that are covered each day during class
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
 
+<br/><br/>
+---
+---
+
+# Day 06, September 16 (👟Sprint)
+
+<br/><br/>
+---
+---
+
 # Day 05, September 11 - Advanced Transforms (Lecture)
 
 ## 📢Announcements
