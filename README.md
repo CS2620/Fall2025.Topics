@@ -8,6 +8,64 @@ The topics that are covered each day during class
 ---
 ---
 
+
+# Day 07, September 18 - Interpolation (🧑‍🏫Lecture)
+
+## ~~📢Announcements~~
+
+
+## 🔙Review
+- Quick review of transforms
+- [Liquid Glass Release](https://www.youtube.com/watch?v=jGztGfRujSE)
+
+## 👩‍💻Activity: Discuss Apple's Liquid Glass Design 
+- You can see the full design specification here: https://developer.apple.com/documentation/technologyoverviews/liquid-glass
+- Are icons difficult to see in tinted mode? Why?
+- Can we explain why using eye anatomy?
+  - Consider rods and cones
+
+
+## 💡New Idea: Histograms
+- A histogram shows the frequency of different levels in an image.
+  - Additional information at https://en.wikipedia.org/wiki/Image_histogram
+- What does a histogram tell us about an image?
+- What 'should' a histogram look like?
+- 🛝See slides about Histograms
+
+## 👩‍💻Activity: Histograms
+- Generate a histogram from a specific image.
+- Compare the histograms of different Liquid Glass homescreen modes.
+  - Do they appear the way we would expect?
+
+
+## 💡New Idea: Major File Formats
+- Photographers led to JPG (JPEG)
+- Online led to GIF and then PNG
+- There has been a recent support for animated PNGS
+- 🛝See slides about File Formats
+
+## 👩‍💻Activity: Create an animated image
+- View an animated PNG we create ourselves
+- Compare to the animated results from a GIF
+
+## 💡New Idea: 1D Linear Interpolation
+- To interpolate between color and BW, we need to interolate
+- Linear interopolation results in the following formula:
+$$(1-x)A+xB$$
+- 🛝See slides about Sampling
+
+
+
+## 🧭Ideas to explore on your own
+- How would you improve Liquid Glass to be easier use?
+- Are there other ways to quantify the effectiveness of a design language besides histograms?
+
+## 🏁Final Code
+ - [The final code for today](https://github.com/cs)
+<br/><br/>
+---
+---
+
 # Day 06, September 16 (👟Sprint)
 
 <br/><br/>
