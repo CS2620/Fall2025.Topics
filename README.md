@@ -8,8 +8,49 @@ The topics that are covered each day during class
 ---
 ---
 
+# Day 09, September 25 - Interpolation (🧑‍🏫Lecture 👟Sprint)
 
-# Day 07, September 18 - Interpolation (🧑‍🏫Lecture)
+## 🔙Review
+- Linear Interpolation
+
+## 💡New Idea: Bilinear Interpolation
+
+## 💡New Idea: Bicubic Interpolation
+```python
+return [
+        1/6*(-A+3*B-3*C+D)*factor**3+ 
+        1/2*(A-2*B+C)*factor**2+
+        1/6*(-2*A-3*B+6*C-D)*factor+
+        B
+        for A, B, C, D in zip(negativeOne, zero, one, two)]
+```
+
+## 👩‍💻Activity: Enhance, Enhance, Enhance
+- https://www.youtube.com/watch?v=I_8ZH1Ggjk0
+
+## 💡New Idea: Other kinds of Interpolation
+- https://en.wikipedia.org/wiki/Comparison_gallery_of_image_scaling_algorithms
+
+
+## 🧭Ideas to explore on your own
+
+
+## 🏁Final Code
+ - [The final code for today](https://github.com/cs)
+<br/><br/>
+---
+---
+
+
+
+# Day 08, September 23 (Sprint)
+
+<br/><br/>
+---
+---
+
+
+# Day 07, September 18 - Interpolation Prep (🧑‍🏫Lecture)
 
 ## ~~📢Announcements~~
 
