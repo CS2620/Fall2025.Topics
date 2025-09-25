@@ -13,6 +13,9 @@ The topics that are covered each day during class
 ## 🔙Review
 - Linear Interpolation
 
+## 💡New Idea: Nearest Neighbor Interpolation
+- https://www.youtube.com/watch?v=MnjXHOApVIc
+
 ## 💡New Idea: Bilinear Interpolation
 
 ## 💡New Idea: Bicubic Interpolation
@@ -27,6 +30,7 @@ return [
 
 ## 👩‍💻Activity: Enhance, Enhance, Enhance
 - https://www.youtube.com/watch?v=I_8ZH1Ggjk0
+- https://www.youtube.com/watch?v=Lteh13M2U70
 
 ## 💡New Idea: Other kinds of Interpolation
 - https://en.wikipedia.org/wiki/Comparison_gallery_of_image_scaling_algorithms
