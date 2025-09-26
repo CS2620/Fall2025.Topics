@@ -8,17 +8,38 @@ The topics that are covered each day during class
 ---
 ---
 
-# Day 09, September 25 - Interpolation (🧑‍🏫Lecture 👟Sprint)
+# Day 09, September 25 - Interpolation (🧑‍🏫Lecture)
 
 ## 🔙Review
 - Linear Interpolation
+  - Interpolating between points $(0, A)$ and $(1, B)$ where the desired x is $p$, then the answer is found with: $(1-p)A+pB$
 
 ## 💡New Idea: Nearest Neighbor Interpolation
-- https://www.youtube.com/watch?v=MnjXHOApVIc
+- In nearest neighbor interpolation, a final color is chosen by selecting the known pixel center closest to the interpolated coordinate.
+- Nearest neighbor interpolation preserves original colors, edges aren't blurred, but it suffers from strong aliasing
+- Additional information can be found on this [Wikipedia Article About Nearest Neighbor Interpolation](https://en.wikipedia.org/wiki/Nearest-neighbor_interpolation)
+
+## 👩‍💻Code Together: Nearest Neighbor Interpolation
+- Implement nearest neighbor interpolation while scaling to show the distinct artifacts it creates
+
+## 📺Video: Nearest Neighbor Interpolation in Early Video Games
+- This kind of interpolation was used in classic video games
+  - For example, look for nearest neighbor interpolation in this video of [Wolfenstein 3D](https://www.youtube.com/watch?v=MnjXHOApVIc)
 
 ## 💡New Idea: Bilinear Interpolation
+- We can use linear interpolation on a 2D image by:
+  - Interpolating between the top two pixels (horizontally)
+  - Interpolating between the bottom two pixels (horizontally)
+  - Interpolating between the results (vertically)
+- Bilinear interpolation can introduce new colors into the interpolated image. It tends to smooth sharp edges but has less aliasing than nearest neighbor interpolation
+- Additional information can be found on this [Wikipedia Article About Bilinear Interpolation](https://en.wikipedia.org/wiki/Bilinear_interpolation)
+
 
 ## 💡New Idea: Bicubic Interpolation
+- Cubic interpolation fits a degree 3 polynomials to four points to create a better fit than linear interpolation.
+- Bicubic interpolation can be done by interpolating four times horizontally and one time vertically
+- Bicubic interpolation tends to preserve sharp edges better than linear interpolation without introducing the same aliasing as nearest neighbor interpolation
+- As a reminder, you can do cubic interpolation with the following code:
 ```python
 return [
         1/6*(-A+3*B-3*C+D)*factor**3+ 
@@ -27,27 +48,34 @@ return [
         B
         for A, B, C, D in zip(negativeOne, zero, one, two)]
 ```
+- Additional information can be found on this [Wikipedia Article About Bicubic Interpolation](https://en.wikipedia.org/wiki/Bicubic_interpolation)
+- Additional information can be found on this [Wikipedia Article Comparing Types of Interpolation](https://en.wikipedia.org/wiki/Comparison_gallery_of_image_scaling_algorithms)
 
-## 👩‍💻Activity: Enhance, Enhance, Enhance
-- https://www.youtube.com/watch?v=I_8ZH1Ggjk0
-- https://www.youtube.com/watch?v=Lteh13M2U70
+## 👩‍💻Code Together: Bilinear and Bicubic Interpolation
+- Create a program that generates an animated image of an image being rotated.
+- Do the rotating with bilinear interpolation and then bicubic interpolation.
+- Compare the results.
 
-## 💡New Idea: Other kinds of Interpolation
-- https://en.wikipedia.org/wiki/Comparison_gallery_of_image_scaling_algorithms
-
+## 📺Video: Enhance, Enhance, Enhance
+- There are limitations to what can be done with interpolation. 
+- During an NFL game, the broadcaster zoomed up on a player's foot. This video shows what is actually possible with interpolation. For example, the grass does not become crisper when the image is scaled. [Video of 2024 Chiefs Game Showing Interpolation](https://www.youtube.com/watch?v=Lteh13M2U70)
+- In this fictional show, a computer user is able to "enhance" an image to show things that were not original visible. This is not possible with interpolation. [Video of Fictional Enhancement using Interpolation](https://www.youtube.com/watch?v=I_8ZH1Ggjk0)
+  
 
 ## 🧭Ideas to explore on your own
+- What would happen if you did interpolation using a higher degree polynomial, for example a degree five polynomial?
+- What other ways of interpolating can you think of?
 
 
-## 🏁Final Code
- - [The final code for today](https://github.com/cs)
+## 🏁[Today's Final Code on GitHub](https://github.com/CS2620/Fall2025.Day09.Interpolation)
+
 <br/><br/>
 ---
 ---
 
 
 
-# Day 08, September 23 (Sprint)
+# Day 08, September 23 (👟Sprint)
 
 <br/><br/>
 ---
