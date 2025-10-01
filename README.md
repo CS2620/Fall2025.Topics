@@ -13,6 +13,8 @@ The topics that are covered each day during class
 ## 💡New Idea: HSV
 
 ## 👩‍💻Activity:
+- Find Colors
+- Also look at Encanto
 - Look for H,S,V changes in this clip: https://www.youtube.com/watch?v=N_7zkF2XnAA
 
 
