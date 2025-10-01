@@ -4,6 +4,39 @@ The topics that are covered each day during class
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
 
+# Day xx, MMMM dd - xxx (🧑‍🏫Lecture 👟Sprint)
+
+## 📢Announcements
+
+## 🔙Review
+
+## 💡New Idea: HSV
+
+## 👩‍💻Activity:
+- Look for H,S,V changes in this clip: https://www.youtube.com/watch?v=N_7zkF2XnAA
+
+
+## 🧭Ideas to explore on your own
+- What other color spaces are there or should there be
+- What are the strengths and weaknesses of HSV?
+
+
+## 🏁Final Code
+ - [The final code for today](https://github.com/cs)
+<br/><br/>
+---
+---
+
+
+
+
+
+# Day 10, September 30 (👟Sprint)
+
+<br/><br/>
+---
+---
+
 <br/><br/>
 ---
 ---
