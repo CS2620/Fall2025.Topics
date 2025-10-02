@@ -9,13 +9,18 @@ The topics that are covered each day during class
 ## 📢Announcements
 
 ## 🔙Review
+- Veo 3 video generation
+  - Here's a video I made. The prompt is in the description. https://youtu.be/sx65us6oboU
 
 ## 💡New Idea: HSV
 
-## 👩‍💻Activity:
+## 👩‍💻Activity: Saturation in film
 - Find Colors
 - Also look at Encanto
-- Look for H,S,V changes in this clip: https://www.youtube.com/watch?v=N_7zkF2XnAA
+- [Dorothy Entering Oz](https://www.youtube.com/watch?v=x6D8PAGelN8)
+- [Wes Anderson Color Palette](https://www.youtube.com/watch?v=JQoNhRN9CiI)
+- [Speed Racer Color Palette](https://www.youtube.com/watch?v=3FtBAGMSw-I)
+- Look for H,S,V changes in this clip: [Mission Impossible 3, look at last clip](https://www.youtube.com/watch?v=N_7zkF2XnAA)
 
 
 ## 🧭Ideas to explore on your own
