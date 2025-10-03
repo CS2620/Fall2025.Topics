@@ -36,10 +36,6 @@ The topics that are covered each day during class
 ---
 ---
 
-<br/><br/>
----
----
-
 # Day 09, September 25 - Interpolation (🧑‍🏫Lecture)
 
 ## 🔙Review
