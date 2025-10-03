@@ -29,3 +29,7 @@
 
 ## Create a image of colors
 - Code at https://github.com/CS2620/Fall2025.Day02.Grayscale/blob/main/02-color-swatch.py
+
+## 🔙Review
+- Veo 3 video generation
+  - Here's a video I made. The prompt is in the description. https://youtu.be/sx65us6oboU

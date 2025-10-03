@@ -4,13 +4,8 @@ The topics that are covered each day during class
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
 
-# Day xx, MMMM dd - xxx (🧑‍🏫Lecture 👟Sprint)
+# Day 11, October 02 - Hue, Saturation, and Value (🧑‍🏫Lecture 👟Sprint)
 
-## 📢Announcements
-
-## 🔙Review
-- Veo 3 video generation
-  - Here's a video I made. The prompt is in the description. https://youtu.be/sx65us6oboU
 
 ## 💡New Idea: HSV
 
@@ -33,9 +28,6 @@ The topics that are covered each day during class
 <br/><br/>
 ---
 ---
-
-
-
 
 
 # Day 10, September 30 (👟Sprint)
