@@ -7,19 +7,44 @@ The topics that are covered each day during class
 # Day 11, October 02 - Hue, Saturation, and Value (🧑‍🏫Lecture 👟Sprint)
 
 
-## 💡New Idea: HSV
+## 🖼️Activity: Describe Famous Paintings
+- We use words like cool/warm, dark/light, vibrant/muted instead of describing everything in terms of R, G, and B
+- We can convert colors from the RGB color space to other color spaces
 
-## 👩‍💻Activity: Saturation in film
-- Find Colors
-- Also look at Encanto
-- [Dorothy Entering Oz](https://www.youtube.com/watch?v=x6D8PAGelN8)
-- [Wes Anderson Color Palette](https://www.youtube.com/watch?v=JQoNhRN9CiI)
-- [Speed Racer Color Palette](https://www.youtube.com/watch?v=3FtBAGMSw-I)
-- Look for H,S,V changes in this clip: [Mission Impossible 3, look at last clip](https://www.youtube.com/watch?v=N_7zkF2XnAA)
+## 💡New Idea: HSV color space
+- Hue: The pure color on the color wheel
+- Saturation: How pure the color is
+- Value: How bright the color is (grayscale)
+
+## 💡New Idea: Converting from RGB to HSV
+- `v=max(r,g,b)`
+- `s=(v-min)/v`
+- Hue depends on the dominant color in the pixel
+  - If red is the dominant color in the pixel, then start at 0 degrees
+  - If green is the dominant color in the pixel, then start at 120 degrees
+  - If blue is the dominant color in the pixel, then start at 240 degrees
+- Subtract the remaining colors to find a final hue
+  - `h=baseAngle+60*(i-j)/(v-min)`
+
+## 💡New Idea: Converting from HSV to RGB
+- `v` tells us value of the dominant color of the image
+- `h` tells us which channel (R, G, or B) has that max
+- `min` can be calculated using `min=v-s*v`
+- `h` tells us which channel has that min
+- The remaining color can be derived with one of two equations:
+  - `h*(v-min)/60-baseAngle+min`
+  - `min-h*(v-min)/60-baseAngle`
+
+
+## 👩‍💻Code Together: HSV
+- Convert from RGB to HSV and review the resulting channel images
+- Convert from RGB to HSV to confirm that we have the original image
+- Convert from RGB to HSV, change the results, and convert to RGB
+  - How has the image changed?
 
 
 ## 🧭Ideas to explore on your own
-- What other color spaces are there or should there be
+- When do we have less confidence in saturation and hue values?
 - What are the strengths and weaknesses of HSV?
 
 
