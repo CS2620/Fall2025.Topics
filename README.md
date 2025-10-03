@@ -3,7 +3,11 @@ The topics that are covered each day during class
 - [You can find the notes from class here](https://uofnebraska-my.sharepoint.com/:f:/g/personal/17816140_nebraska_edu/EktuKJi3m_9Khf6sZLG_lrkBc46ZoPAOI6gCk86_xmf0sQ?e=sRqveC)
 - [You can find previous semesters' final videos here](https://www.youtube.com/playlist?list=PLH9qo0GKu2iSlchbSeksN18S87gMIjHOg)
 
+<br/><br/>
+---
+---
 
+![A paint palette](paints.jpg)
 # Day 11, October 02 - Hue, Saturation, and Value (🧑‍🏫Lecture 👟Sprint)
 
 
