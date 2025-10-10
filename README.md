@@ -7,6 +7,7 @@ The topics that are covered each day during class
 ---
 ---
 
+![A commercial printing device](cmyk.jpg)
 # Day 13 - October 09 - CMYK (🧑‍🏫Lecture)
 
 ## 🖼️Activity: Review HSV
