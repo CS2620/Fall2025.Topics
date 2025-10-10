@@ -7,8 +7,78 @@ The topics that are covered each day during class
 ---
 ---
 
+# Day 13 - October 09 - CMYK (🧑‍🏫Lecture)
+
+## 🖼️Activity: Review HSV
+- In groups, find the HSV values for RGB(200, 100, 50)
+  - HSV = (20, 3/4, 200)
+
+## 🖼️Activity: Think About Color
+- How is color used to convey meaning in movies. For example, how was [saturation used for dramatic effect in The Wizard of Oz](https://www.youtube.com/watch?v=x6D8PAGelN8)
+
+
+## 🖼️Activity: Additive and Subtractive Color Spaces
+- When we combine Play-Doh, does it turn white? Why not?
+  - Subtractive color spaces, like those we use in real life, subtract color instead of adding color like those used on screens.
+
+## 💡New Idea: CMYK
+- We add use black to darken all channels
+- Cyan removes red
+- Magenta removes green
+- Yellow removes blue.
+- CMYK is usually report at percentages
+  
+## 🟰Math: RGB to CMYK
+- CMYK is calculated using percentages
+  - pr = r/255, pg = g/255, pb = b/255
+- pk = 1 - max(pr, pg, pb)
+  - If a pixel is pure black, you have to return (0, 0, 0, 100) to prevent a a divide by zero error.
+- pc = (1-pr-k)/(1-k)
+- pm = (1-pg-k)/(1-k)
+- py = (1-pb-k)/(1-k)
+- We usually multiply by 100 to get the final c, m, y, and k
+
+## 🟰Math: CMYK to RGB
+- First get the percentages we used before
+- pc = c/100, etc.
+- Using algebra, we can reverse the formulas from above:
+  - pr = 1-k-pc+pk*k
+  - etc.
+- Multiply by 255 to get back to the normal ranges.
+  
+
+## 👩‍💻Code Together:
+- Implement RGB to CMYK
+- Implement CMYK to RGB
+  
+## 🖼️Activity: CMYK Printing Plates
+- Use the code to look at what CMYK printing plates would look like for an image. 
+
+## 🧭Ideas to explore on your own
+- Why do we use CMYK instead of Red, Yellow, Blue and Black?
+
+## 🏁Final Code
+- [The final code for today](https://github.com/cs2620/Fall2025.Day13.CMYK)
+<br/><br/>
+---
+---
+
+
+
+
+
+
+# Day 12 - October 07 - (👟Sprint)
+
+- Review of AI video generation using Google Veo 3. You can see [an example video including the prompt on YouTube](https://youtu.be/sx65us6oboU)
+
+<br/><br/>
+---
+---
+
+
 ![A paint palette](paints.jpg)
-# Day 11, October 02 - Hue, Saturation, and Value (🧑‍🏫Lecture 👟Sprint)
+# Day 11, October 02 - Hue, Saturation, and Value (🧑‍🏫Lecture)
 
 
 ## 🖼️Activity: Describe Famous Paintings
