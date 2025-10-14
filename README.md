@@ -34,16 +34,16 @@ The topics that are covered each day during class
   - pr = r/255, pg = g/255, pb = b/255
 - pk = 1 - max(pr, pg, pb)
   - If a pixel is pure black, you have to return (0, 0, 0, 100) to prevent a a divide by zero error.
-- pc = (1-pr-k)/(1-k)
-- pm = (1-pg-k)/(1-k)
-- py = (1-pb-k)/(1-k)
+- pc = (1-pr-pk)/(1-pk)
+- pm = (1-pg-pk)/(1-pk)
+- py = (1-pb-pk)/(1-pk)
 - We usually multiply by 100 to get the final c, m, y, and k
 
 ## 🟰Math: CMYK to RGB
 - First get the percentages we used before
 - pc = c/100, etc.
 - Using algebra, we can reverse the formulas from above:
-  - pr = 1-k-pc+pk*k
+  - pr = 1-pc+pc*pk+1-pk
   - etc.
 - Multiply by 255 to get back to the normal ranges.
   
