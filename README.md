@@ -7,6 +7,23 @@ The topics that are covered each day during class
 ---
 ---
 
+# Day 14 - October 14 - (👟Sprint)
+
+<!-- For some reason I did put together a quiz for this day! -->
+
+
+## 🔙Review
+- Review CMYK conversion math
+- Look at AI generated videos
+- Introduce [CIE 1931 Color Space](https://en.wikipedia.org/wiki/CIE_1931_color_space)
+  - 🛝See slides about Perception
+- Introduce [UHDTV Color Space](https://en.wikipedia.org/wiki/Ultra-high-definition_television)
+
+<br/><br/>
+---
+---
+
+
 ![A commercial printing device](cmyk.jpg)
 # Day 13 - October 09 - CMYK (🧑‍🏫Lecture)
 
