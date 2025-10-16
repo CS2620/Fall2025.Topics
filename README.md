@@ -6,6 +6,33 @@ The topics that are covered each day during class
 <br/><br/>
 ---
 ---
+![Container Banner Image](containers.jpg)
+# Day 15 - October 16 - File Formats 1 (🧑‍🏫Lecture)
+
+## 🖼️Activity:
+- Try speaking without pronouns.
+  - Why do we use pronouns
+  - What other encoding/compression do we do in everyday speech.
+
+## 💡New Idea: Palettes
+- We gather each unique pixel in our image and use that to create a palette
+
+## 💡New Idea: Delimited v Fixed-Width
+- We can make each entry fixed-width or have a delimiter
+
+## 👩‍💻Code Together:
+- Generate a simple file format based on a palette and pixel placement
+
+## 🧭Ideas to explore on your own
+- What file format ideas do you have?
+- How can we improve on the format we made in class
+
+## 🏁Final Code
+- [The final code for today](https://github.com/cs2620/Fall2025.Day15.Formats1)
+<br/><br/>
+---
+---
+
 
 # Day 14 - October 14 - (👟Sprint)
 
