@@ -6,6 +6,47 @@ The topics that are covered each day during class
 <br/><br/>
 ---
 ---
+
+![Bits Banner Image](bits.jpg)
+# Day 16 - October 23 - File Formats 2 (🧑‍🏫Lecture)
+
+## 💡New Idea: Decoding a file format
+- How do we go from a file format to an image
+
+## 👩‍💻Code Together:
+- Parse the existing file format and produce a final image
+- How do we go from an index into an image and determine the x and y?
+  - x = i % width
+  - y = floor of i/width
+
+## 🖼️Activity: Better Compression
+- How can we better compress the image
+- Run length encoding?
+  - Discussion about fax machines
+- What if we remove the pixel coordinates and just put one pixel after another
+
+## 💡New Idea: PPM Format
+- Simple, human readable format for file encoding
+- Mostly used academically
+
+
+## 👩‍💻Code Together:
+- Write a simple PPM encoder and decoder in ASCII
+
+## 💡New Idea: Binary encoding
+- Review of ASCII, Latin-1, and UTF-8
+
+## 👩‍💻Code Together:
+- Revise the PPM code so it writes pixels as bytes instead of a human-readable numbers
+
+<!-- I felt like we could use another activity to make this more interactive -->
+
+## 🏁Final Code
+- [The final code for today](https://github.com/cs2620/Fall2025.Day16.Formats2)
+<br/><br/>
+---
+---
+
 ![Container Banner Image](containers.jpg)
 # Day 15 - October 16 - File Formats 1 (🧑‍🏫Lecture)
 
