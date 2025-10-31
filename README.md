@@ -7,6 +7,55 @@ The topics that are covered each day during class
 ---
 ---
 
+![October 30 Banner Image](boxes.jpg)
+# Day 18 - October 30 - Professional File Formats (🧑‍🏫Lecture)
+
+## 🖼️Activity: Chunks
+- Why do we use boxes when we are moving?
+- If files are like a moving van, then chunks are like boxes. 
+  - By dividing a file into chunks, we can have a flexible, customizable format
+- For example, we might have a palette chunk if that is how we want to compress our image
+  - You can see [the list of PNG chunks here](https://www.w3.org/TR/PNG-Chunks.html).
+
+## 💡New Idea: LZ77 compression
+- LZ77 is a lossless compression algorithm
+- To compress data when there are repeated patterns, the DEFLATE algorithm uses LZ77
+- LZ77 stores triples of back, forward, and next 
+  - These triples tell the decoder how far back to look, how many characters to copy forward, and what the following character is.
+  - You can read more about [the LZ77 algorithm on Wikipedia](https://en.wikipedia.org/wiki/LZ77_and_LZ78)
+
+
+## 💡New Idea: Huffman Coding
+- Huffman coding is a lossless encoding scheme.
+- Huffman coding takes bytes and reassigns their bits
+  - Bytes that appear frequently have fewer bits
+  - Bytes that appear more frequently have more bits
+- This bit-level encoding scheme can reduce the total number of bits.
+  - You can read more about [Huffman coding on Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
+
+
+## 💡New Idea: Pixel Prediction
+- To prepare for the LZ77 encoding and Huffman coding, the PNG format converts lines of pixel into pixel predictions
+- For example, each pixel is changed to be the difference from the pixel before it.
+- This can take low-frequency data and make it easier to compress
+
+## 🧭Ideas to explore on your own
+- What happens when a PNG has high-frequency data
+- Are there better ways to compress than what the PNG specification does?
+
+## 🏁[Code for Today](https://github.com/CS2620/Fall2025.Day18.ProfessionalFileFormats)
+
+<br/><br/>
+---
+---
+
+
+# Day 17 - October 28 - (👟Sprint)
+<br/><br/>
+---
+---
+
+
 ![Bits Banner Image](bits.jpg)
 # Day 16 - October 23 - File Formats 2 (🧑‍🏫Lecture)
 
