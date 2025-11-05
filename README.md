@@ -7,7 +7,20 @@ The topics that are covered each day during class
 ---
 ---
 
-![October 30 Banner Image](boxes.jpg)
+# Day 19 - November 4 - Bit Slicing (👟Sprint)
+
+## 💡New Idea: Bit Slicing
+- One method of reducing the number of bits in an image is to remove bits from the channels. 
+- If you remove the lower-order bits, you can reduce the size of the image by 1/8 for each bit
+
+## 🏁[Code for Today](https://github.com/CS2620/Fall2025.Day19.BitSlicing)
+
+<br/><br/>
+---
+---
+
+
+![October 30 Banner Image](./support/boxes.jpg)
 # Day 18 - October 30 - Professional File Formats (🧑‍🏫Lecture)
 
 ## 🖼️Activity: Chunks
@@ -96,7 +109,7 @@ The topics that are covered each day during class
 ---
 ---
 
-![Container Banner Image](containers.jpg)
+![Container Banner Image](./support/containers.jpg)
 # Day 15 - October 16 - File Formats 1 (🧑‍🏫Lecture)
 
 ## 🖼️Activity:
@@ -141,7 +154,7 @@ The topics that are covered each day during class
 ---
 
 
-![A commercial printing device](cmyk.jpg)
+![A commercial printing device](./support/cmyk.jpg)
 # Day 13 - October 09 - CMYK (🧑‍🏫Lecture)
 
 ## 🖼️Activity: Review HSV
@@ -212,7 +225,7 @@ The topics that are covered each day during class
 ---
 
 
-![A paint palette](paints.jpg)
+![A paint palette](./support/paints.jpg)
 # Day 11, October 02 - Hue, Saturation, and Value (🧑‍🏫Lecture)
 
 
