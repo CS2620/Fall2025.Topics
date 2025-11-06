@@ -7,6 +7,55 @@ The topics that are covered each day during class
 ---
 ---
 
+![Color Reduction Banner Image](/support/reduction.jpg)
+# Day 20 - November 6 - Color Reduction (🧑‍🏫Lecture)
+
+ 
+
+## 💡New Idea: Distance Measures
+- Choosing a distance measure can change the outcome of an algorithm, especially a machine-learning algorithm
+- L1 Distance (Manhattan Distance) - The sum of the absolute differences of the components
+  - Similar to walking in a city with buildings on each block
+- L2 Distance (Euclidean Distance) - The square of the sum of the squares of the components
+  - Distance between points on a plane
+- L∞ Distance - The maximum absolute difference between any components
+  - Simplify to just considering the biggest change
+
+## 🖼️Activity:
+- Find the L1 difference between two colors. 
+- For example (255, 100, 0) and (0, 100, 255)
+  - $|255-0|+|100-100|+|0-255|=255+255=510$
+
+
+## 👩‍💻Code Together:
+- Define the L1, L2, and L∞ distance measures for colors
+- Define a function to find the closest color from a set of colors
+
+## 🖼️Activity: Default Palette
+- We found that using the most frequent $k$ colors in an image as a palette resulted in poor images 
+- Most frequent colors by themselves tended to be very similar
+- They don't represent the sets of most common colors in an image
+
+## 💡New Idea: k-means
+- k-means is a machine learning algorithm that finds the cluster centers (centroids) in a data set
+- k-means starts with random means and iterates to find better means
+- Each iteration, each centroid finds the colors that are closest to it
+  - Then it updates itself to be the center of all of those colors
+- k-means tends to converge on the same set of colors with enough iterations
+- k-means is an excellent algorithm for color reduction, but it does struggle with areas of smooth color change (gradients)
+
+## 🧭Ideas to explore on your own
+- What other distance measures are there?
+- Is there a better way to calculate the locations of clusters in k-means?
+
+## 🏁Final Code
+- [The final code for today](https://github.com/cs2620/Fall2025.Day20.ColorReduction)
+<br/><br/>
+---
+---
+
+
+![November 4 Banner Image](./support/slicing.jpg)
 # Day 19 - November 4 - Bit Slicing (👟Sprint)
 
 ## 💡New Idea: Bit Slicing
@@ -69,7 +118,7 @@ The topics that are covered each day during class
 ---
 
 
-![Bits Banner Image](bits.jpg)
+![Bits Banner Image](/support/bits.jpg)
 # Day 16 - October 23 - File Formats 2 (🧑‍🏫Lecture)
 
 ## 💡New Idea: Decoding a file format
@@ -283,6 +332,7 @@ The topics that are covered each day during class
 ---
 ---
 
+![Banner Image](/support/interpolation.jpg)
 # Day 09, September 25 - Interpolation (🧑‍🏫Lecture)
 
 ## 🔙Review
@@ -356,7 +406,7 @@ return [
 ---
 ---
 
-
+![Banner Image](/support/boxes2.jpg)
 # Day 07, September 18 - Interpolation Prep (🧑‍🏫Lecture)
 
 ## ~~📢Announcements~~
@@ -420,6 +470,7 @@ $$(1-x)A+xB$$
 ---
 ---
 
+![Banner Image](/support/rotation.jpg)
 # Day 05, September 11 - Advanced Transforms (Lecture)
 
 ## 📢Announcements
@@ -506,6 +557,8 @@ $$
 ---
 ---
 
+
+![Banner Image](/support/flip.jpg)
 # Day 04, September 9 - Transforms
 
 ## 📢Announcements
@@ -555,6 +608,8 @@ $$
 <br/><br/><br/>
 ---
 ---
+
+![Banner Image](/support/mosaic.jpg)
 # Day 03, September 3 - Bayer Filter & Demosaicing
 
 ## 📢Announcements
@@ -594,6 +649,8 @@ $$
 <br/><br/><br/>
 ---
 ---
+
+![Banner Image](/support/grayscale.jpg)
 # Day 02, August 28 - Grayscale
 
 ## 🔙Review
@@ -638,6 +695,8 @@ $$
 
 ---
 ---
+
+![Banner Image](/support/eye.jpg)
 # Day 01, August 26 - Eye Anatomy
 
 ## ~~🔙Review~~
