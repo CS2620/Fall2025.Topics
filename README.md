@@ -7,6 +7,24 @@ The topics that are covered each day during class
 ---
 ---
 
+# Day 23 - November 18 - (👟Sprint)
+<br/><br/>
+---
+---
+
+# Day 22 - November 13 - Class Canceled🤧
+
+<br/><br/>
+---
+---
+
+# Day 21 - November 11 - (👟Sprint)
+<br/><br/>
+---
+---
+
+
+
 ![Color Reduction Banner Image](/support/reduction.jpg)
 # Day 20 - November 6 - Color Reduction (🧑‍🏫Lecture)
 
