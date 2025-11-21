@@ -7,6 +7,25 @@ The topics that are covered each day during class
 ---
 ---
 
+# Day 24 - November 20 - Frequency Domain (Lecture)
+
+## New Idea - Frequency/Fourier Domain
+- We can move from a spatial domain to a freqency domain when doing image processing
+- This is similar to using an equalizer on a sound wave
+- The transform that moves from the spatial domain to the frequency domain is the Fourier transform
+- The Fourier transform returns complex numbers.
+   - The magnitude of the complex number tells us the amplitude of a sine wave in frequency space
+   - The phase of the complex number tells us the angle of the sine wave in frequency space
+   - Summing these sine waves gives us the original image
+- The JPG format uses the frequency domain to provide a lossy, high compressionfile format
+- Similar techniques are used in the MP3 and MPG formats
+- We can visualize the complex numbers by rendering their magnitudes in grayscale
+   - The result is swizzled so that the low frequencies are in the center and the high frequencies are on the edges
+- We found that we can remove a lot of the high frequency information without perceptual loss in the reconstituted image
+- Some filters in the spatial domain can be clearly understood in the frequency domain
+   - A blurring filter removes data in the high frequency areas (low pass)
+   - A edge-detection filter removes data in the low frequency areas (high pass)
+
 # Day 23 - November 18 - (👟Sprint)
 <br/><br/>
 ---
