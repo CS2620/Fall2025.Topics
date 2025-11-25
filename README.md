@@ -7,6 +7,18 @@ The topics that are covered each day during class
 ---
 ---
 
+# Day 25 - November 25 - (👟Sprint)
+
+- We had a brief discussion about different filters used in film. 
+- For example we looked at the differences between these frames from the same film (Wicked), one from the trailer and one from the release version:
+  - [Trailer Version](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmore-color-changes-v0-ax54gtkug27d1.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3Db6bf8aa94d3deb0db096c270f8cad9aeb2e1ee8a)
+  - [Released Version](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmore-color-changes-v0-tn3vvtkug27d1.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D26fe5505c0782fcbdcb5dc39d83ddc4cad7050ee)
+
+<br/><br/>
+---
+---
+
+
 ![Color Reduction Banner Image](/support/sine.jpg)
 # Day 24 - November 20 - Frequency Domain (🧑‍🏫Lecture)
 
@@ -27,7 +39,7 @@ The topics that are covered each day during class
    - Summing these sine waves gives us the original image
 
 ## 💡New Idea - Frequency domain and compression
-- The JPG format uses the frequency domain to provide a lossy, high compressionfile format
+- The JPG format uses the frequency domain to provide a lossy, high compression file format
 - Similar techniques are used in the MP3 and MPG formats
 
 ## 💡New Idea - Visualizing the frequency domain
